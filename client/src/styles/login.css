@@ -1,0 +1,64 @@
+.login-main {
+}
+
+.login-component {
+  margin: 15rem auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.1px 0.1px 2px #777;
+  padding: 5rem 4.5rem;
+  border-radius: 5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-label,
+.pwd-label {
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.login-email,
+.login-pwd {
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  border: none;
+  box-shadow: 0.1px 0.1px 1.5px #777;
+  border-radius: 5px;
+  width: 32rem;
+}
+
+.login-btn {
+  width: fit-content;
+  margin: 2rem auto;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(27, 151, 27);
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.forgot-account {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.continue-home {
+  margin: auto;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}

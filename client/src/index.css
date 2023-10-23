@@ -10,14 +10,29 @@ html {
 
 body {
   font-family: sans-serif;
+  height: 200vh;
 }
 
 /* HOME */
 .home-main {
   width: fit-content;
   margin: auto;
+  display: flex;
 }
 
 .home-title {
   margin-top: 2rem;
+}
+.title {
+  color: white;
+}
+.title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #011f5b;
+  height: 50vh;
+  width: 50vw;
+  border-style: none;
+  border-radius: 30px;
 }

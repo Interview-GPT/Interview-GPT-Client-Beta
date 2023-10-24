@@ -1,5 +1,5 @@
 import "../styles/home.css";
-
+import footer from "./footer";
 function Home() {
   return (
     <div className="home-main">

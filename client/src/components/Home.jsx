@@ -1,10 +1,13 @@
 import "../styles/home.css";
-import footer from "./footer";
+import "tailwindcss/tailwind.css";
+
 function Home() {
   return (
     <div className="home-main">
-      <div className="title-box">
-        <h1 className="title">InterviewGPT</h1>
+      <div className="h-200 bg-gradient-to-b from-indigo-700 to-indigo-800 rounded-custom ">
+        <div className="title-box">
+          <h1 className="title">interviewgpt</h1>
+        </div>
       </div>
     </div>
   );

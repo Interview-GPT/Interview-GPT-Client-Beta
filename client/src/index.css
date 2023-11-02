@@ -49,9 +49,15 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 100px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .title-box {
-  flex: 1;
+  flex: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,4 +70,22 @@ body {
   height: 100px;
   background-color: inherit;
   text-align: center;
+}
+
+.output-box {
+  margin: 0 auto;
+  font-size: 20px;
+
+  width: 600px;
+  height: 300px;
+  margin-left: 400px;
+  margin-top: 10px;
+
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  resize: none;
+
 }

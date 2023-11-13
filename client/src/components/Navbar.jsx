@@ -9,7 +9,9 @@ function Navbar() {
         <Link className="link" to="">
           Home
         </Link>
-
+        <Link className="link" to="resume">
+          Resume
+        </Link>
         <Link className="link nav-login" to="login">
           Login
         </Link>

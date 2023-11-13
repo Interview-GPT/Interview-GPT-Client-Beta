@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
+import '../styles/resume.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -25,29 +27,23 @@ function FileUpload() {
                 fullText += pageText;
             }
 
-            setText(fullText);
+            setText(fullText); //the string fullText can be sent to an API
         } catch (error) {
             console.error('Error loading PDF:', error);
         }
     }
 
     return (
-        <div>
+        <div id ='resume-page'>
             <h2>Submit Resume</h2>
-            <form>
+            <form className='input'>
                 <input type="file" name="file" onChange={handleFile} />
             </form>
             {file && (
-                <div>
+                <div className='enclosed-area'>
                     <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
                         <Page pageNumber={1} />
                     </Document>
-                    {text && (
-                        <div>
-                            <h2>Resume:</h2>
-                            <pre>{text}</pre>
-                        </div>
-                    )}
                 </div>
             )}
         </div>

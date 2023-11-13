@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Login from "./components/Login.jsx";
 import Signup from "./components/Signup.jsx";
+import Resumeupload from "./components/Resumeupload.jsx";
 
 import "./index.css";
 import "./styles/general.css";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Signup />,
+  },
+  {
+    path: "/resume",
+    element: <Resumeupload />,
   },
 ]);
 

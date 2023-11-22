@@ -5,9 +5,8 @@ import Workspace from "./components/Workspace";
 function App() {
   return (
     <div>
-      <Workspace />
-      {/* <Navbar />
-      <Outlet /> */}
+      <Navbar />
+      <Outlet />
     </div>
   );
 }

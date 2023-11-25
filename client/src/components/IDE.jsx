@@ -7,9 +7,12 @@ import { vscodeDark } from "@uiw/codemirror-theme-vscode";
 import { python } from "@codemirror/lang-python";
 
 const IDEbar = () => {
+  const boilerPlate =`def twoSum(nums, target):
+    #Write function here
+  `;
   return (
     <>
-      <div className="flex flex-col bg-dark-layer5 relative">
+      <div className="flex flex-col bg-dark-layer5 relative overflow-x-hidden">
         <PreferenceNav />
         <Split
           className="h-[calc(100vh-94px)] "
@@ -19,7 +22,7 @@ const IDEbar = () => {
         >
           <div className="bg-dark-layer5" w-full overflow-auto>
             <CodeMirror
-              value="const a = 1;"
+              value={boilerPlate}
               theme={vscodeDark}
               extensions={[python()]}
               style={{ fontSize: 16 }}

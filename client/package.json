@@ -11,14 +11,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/lang-python": "^6.1.3",
+    "@uiw/codemirror-extensions-langs": "^4.21.20",
+    "@uiw/codemirror-theme-vscode": "^4.21.20",
+    "@uiw/react-codemirror": "^4.21.20",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0",
+    "react-icons": "^4.12.0",
     "react-router-dom": "^6.16.0",
-    "sort-by": "^0.0.2"
+    "react-split": "^2.0.14",
+    "sort-by": "^0.0.2",
+    "split.js": "^1.6.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

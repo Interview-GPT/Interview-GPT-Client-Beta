@@ -139,3 +139,12 @@ code {
 .bg-dark-layer6{
 	background-color:  rgb(68, 68, 75);
 }
+.bg-green{
+	background-color: green;
+}
+.bg-green:hover{
+	background-color: rgb(7, 173, 7);
+}
+.hovtxt:hover{
+	color: rgb(144, 191, 227);
+}

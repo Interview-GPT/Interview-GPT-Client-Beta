@@ -43,7 +43,7 @@ const ProblemDescription = () => {
               </div>
 
               {/* Problem Statement(paragraphs) */}
-              <div className="text-white text-sm">
+              <div className="text-white text-md">
                 <p className="mt-3">
                   Given an array of integers <code>nums</code> and an integer{" "}
                   <code>target</code>, return

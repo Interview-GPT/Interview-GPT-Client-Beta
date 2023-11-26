@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/workspace.css";
+import IDEfooter from "./IDE/IDEfooter"
 import PreferenceNav from "./IDE/NavPrefIDE";
 import Split from "react-split";
 import CodeMirror from "@uiw/react-codemirror";
@@ -76,6 +77,7 @@ const IDEbar = () => {
             </div>
           </div>
         </Split>
+        <IDEfooter/>
       </div>
     </>
   );

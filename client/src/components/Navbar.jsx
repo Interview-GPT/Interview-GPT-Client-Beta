@@ -6,7 +6,7 @@ function Navbar() {
     <div className="nav-main">
       <div className="navbar">
         <span>
-          <img src="/public/logo.png" alt="" className="center logo" />
+          <img src="/public/logo.png" alt="" className="logo" />
         </span>
         <Link className="link nav-login" to="/login">
           Login

@@ -5,12 +5,10 @@ function Navbar() {
   return (
     <div className="nav-main">
       <div className="navbar">
-        <span>logo goes here</span>
-        <Link className="link" to="">
-          Home
-        </Link>
-
-        <Link className="link nav-login" to="login">
+        <span>
+          <img src="/public/logo.png" alt="" className="center logo" />
+        </span>
+        <Link className="link nav-login" to="/login">
           Login
         </Link>
       </div>

@@ -9,10 +9,6 @@ function Home() {
           <img src="\public\logo.png" alt="" class="center"></img>
         </div>
       </div>
-      <form>
-      <textarea placeholder="Paste your text here ..." class="output-box"></textarea>
-      </form>
-
       <div className="footer-div"></div>
     </div>
   );

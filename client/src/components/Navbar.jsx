@@ -6,9 +6,6 @@ function Navbar() {
     <div className="nav-main">
       <div className="navbar">
         <span>logo goes here</span>
-        <Link className="link" to="">
-          Home
-        </Link>
 
         <Link className="link nav-login" to="login">
           Login
